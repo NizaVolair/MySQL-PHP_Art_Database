@@ -1,0 +1,62 @@
+table {
+   border-collapse: collapse;
+   border-style: solid;
+   border-width: thin;
+}
+
+th {
+   text-align: center;
+   vertical-align: middle;
+   border-collapse: collapse;
+   border-style: solid;
+   border-width: thin;
+}
+
+td {
+   text-align: center;
+   vertical-align: middle;
+   border-collapse: collapse;
+   border-style: solid;
+   border-width: thin;
+}
+
+.centered {
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.button {
+   border-top: 1px solid #b8b8b8;
+   background: #210521;
+   background: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#210521));
+   background: -webkit-linear-gradient(top, #f5f5f5, #210521);
+   background: -moz-linear-gradient(top, #f5f5f5, #210521);
+   background: -ms-linear-gradient(top, #f5f5f5, #210521);
+   background: -o-linear-gradient(top, #f5f5f5, #210521);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #ffffff;
+   font-size: 14px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+
+.button:hover {
+   border-top-color: #5e465e;
+   background: #5e465e;
+   color: #ccc;
+   }
+
+.button:active {
+   border-top-color: #520e52;
+   background: #520e52;
+   }
